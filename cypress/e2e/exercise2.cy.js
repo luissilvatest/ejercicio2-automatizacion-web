@@ -20,6 +20,9 @@ describe('Inditex - Exercise 2', () => {
       wikiPage.visit()
     //Verify that the title of the article is "Automation"
       wikiPage.titlePage.contains("Automatización").should("be.visible")
+    //Check the year of the first automated process
+      cy.contains("También en 1745, Jacques de Vaucanson inventó el primer telar automatizado").should("be.visible")
+      
   });
 
   it('Take a screenshot of the Wikipedia page.', () => {
