@@ -30,7 +30,7 @@ git clone https://github.com/<your-username>/ejercicio2-automatizacion-web.git
 cd ejercicio2-automatizacion-web
 
 ## install the node_modules
-npx cypress run
+npm install
 ```
 
 ### 2. Test Execution ##
@@ -39,7 +39,7 @@ Test can be executed:
 
 - Default run:
 ```sh
-$ npm test
+$ npx cypress run
 ```
 ### 3 Results
 
