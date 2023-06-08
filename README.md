@@ -1,8 +1,5 @@
 # Exercise3 Inditex  #
 
-Steps to follow to have k6 environment set up and running tests
-
-
 ## Getting Started ##
 0.  Prerequisites
 1.	Installation process
@@ -16,7 +13,7 @@ Steps to follow to have k6 environment set up and running tests
 - Donwload and install node [Node](https://nodejs.org/es/download)
 - Install Cypress [Follow these instructions to install Cypress.](https://on.cypress.io/installing-cypress)
 
-### 1. Fork this repo
+### 1. Clone this repo
 
 If you want to experiment with running this project in Continuous Integration, you'll need to [fork](https://github.com/luissilvatest/ejercicio2-automatizacion-web) it first.
 
