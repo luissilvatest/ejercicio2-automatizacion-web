@@ -1,2 +1,46 @@
-# ejercicio2-automatizacion-web
-Ejercicio 2: Automatización de una web
+# Exercise3 Inditex  #
+
+Steps to follow to have k6 environment set up and running tests
+
+
+## Getting Started ##
+0.  Prerequisites
+1.	Installation process
+2.	Test Execution
+3.  Results
+
+
+## 0. Prerequisites ##
+
+- Install a code editor, e.g. [Visual Studio Code](https://code.visualstudio.com/download)
+- Donwload and install node [Node](https://nodejs.org/es/download)
+- Install Cypress [Follow these instructions to install Cypress.](https://on.cypress.io/installing-cypress)
+
+### 1. Fork this repo
+
+If you want to experiment with running this project in Continuous Integration, you'll need to [fork](https://github.com/luissilvatest/ejercicio2-automatizacion-web) it first.
+
+After forking this project in `Github`, run these commands:
+
+```bash
+## clone this repo to a local directory
+git clone https://github.com/<your-username>/ejercicio2-automatizacion-web.git
+
+## cd into the cloned repo
+cd ejercicio2-automatizacion-web
+
+## install the node_modules
+npx cypress run
+```
+
+### 2. Test Execution ##
+
+Test can be executed:
+
+- Default run:
+```sh
+$ npm test
+```
+### 3 Results
+
+- The assertions and output indicated in the exercise are printed in the console/terminal.
